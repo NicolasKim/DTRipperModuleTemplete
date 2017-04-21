@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.framework    = "UIKit"
   s.source_files = '##TempleteModule##/**/*.{h,m}'
   s.resource = '##TempleteModule##/Resources/##TempleteModule##.bundle'
+  s.dependency 'DTRipper'
 end
