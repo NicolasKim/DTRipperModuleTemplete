@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Author/Repo.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.framework    = "UIKit"
-  s.source_files = '##TempleteModule##/*.{h,m}'
+  s.source_files = '##TempleteModule##/**/*.{h,m}'
   s.resource = '##TempleteModule##/Resources/##TempleteModule##.bundle'
 end
