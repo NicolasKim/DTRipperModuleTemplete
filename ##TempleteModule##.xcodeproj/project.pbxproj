@@ -15,7 +15,7 @@
 		99D25F9F1EA7A6AF0086AC30 /* ##TempleteModule##Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D25F9D1EA7A6AF0086AC30 /* ##TempleteModule##Bundle.h */; };
 		99D25FA01EA7A6AF0086AC30 /* ##TempleteModule##Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D25F9E1EA7A6AF0086AC30 /* ##TempleteModule##Bundle.m */; };
 		99D25FB61EA7A72F0086AC30 /* ##TempleteModule##.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99D25FB51EA7A72F0086AC30 /* ##TempleteModule##.bundle */; };
-		99D260421EA8E16D0086AC30 /* ##TempleteModule##.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 99D260411EA8E16D0086AC30 /* ##TempleteModule##.podspec */; };
+		99D260441EA9F0FE0086AC30 /* ##TempleteModule##.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 99D260431EA9F0FE0086AC30 /* ##TempleteModule##.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 		99D25F9D1EA7A6AF0086AC30 /* ##TempleteModule##Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "##TempleteModule##Bundle.h"; sourceTree = "<group>"; };
 		99D25F9E1EA7A6AF0086AC30 /* ##TempleteModule##Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "##TempleteModule##Bundle.m"; sourceTree = "<group>"; };
 		99D25FB51EA7A72F0086AC30 /* ##TempleteModule##.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "##TempleteModule##.bundle"; sourceTree = "<group>"; };
-		99D260411EA8E16D0086AC30 /* ##TempleteModule##.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "##TempleteModule##.podspec"; sourceTree = "<group>"; };
+		99D260431EA9F0FE0086AC30 /* ##TempleteModule##.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "##TempleteModule##.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,7 @@
 		99D25F731EA7A5BB0086AC30 = {
 			isa = PBXGroup;
 			children = (
+				99D260431EA9F0FE0086AC30 /* ##TempleteModule##.podspec */,
 				99D25F7F1EA7A5BB0086AC30 /* ##TempleteModule## */,
 				99D25F8A1EA7A5BC0086AC30 /* ##TempleteModule##Tests */,
 				99D25F7E1EA7A5BB0086AC30 /* Products */,
@@ -83,7 +84,6 @@
 		99D25F7F1EA7A5BB0086AC30 /* ##TempleteModule## */ = {
 			isa = PBXGroup;
 			children = (
-				99D260411EA8E16D0086AC30 /* ##TempleteModule##.podspec */,
 				99D25F801EA7A5BB0086AC30 /* ##TempleteModule##.h */,
 				99D25F981EA7A6050086AC30 /* Resources */,
 				99D25F971EA7A5E90086AC30 /* Classes */,
@@ -214,8 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D260441EA9F0FE0086AC30 /* ##TempleteModule##.podspec in Resources */,
 				99D25FB61EA7A72F0086AC30 /* ##TempleteModule##.bundle in Resources */,
-				99D260421EA8E16D0086AC30 /* ##TempleteModule##.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
