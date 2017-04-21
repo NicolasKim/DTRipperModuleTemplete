@@ -9,5 +9,52 @@
 #import "##TempleteModule##Delegate.h"
 
 @implementation __TempleteModule__Delegate
++(NSString *)moduleIndentifier{
+    return @"##TempleteModule##";
+}
 
+-(instancetype)initModule:(DTRipperContext *)context{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
+- (void)moduleSetUp:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleInit:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleTearDown:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleWillResignActive:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleDidEnterBackground:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleWillEnterForeground:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleDidBecomeActive:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleWillTerminate:(DTRipperContext *)context{
+    
+}
+
+- (void)moduleOpenURL:(DTRipperContext *)context{
+    
+    
+}
 @end
