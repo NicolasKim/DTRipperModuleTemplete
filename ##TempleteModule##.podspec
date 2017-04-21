@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                         ##TempleteModule##
                        DESC
-  s.homepage         = ''
+  s.homepage         = 'www.yourhomepage.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Author' => 'example@mail.com' }
   s.source           = { :git => 'https://github.com/Author/Repo.git', :tag => s.version.to_s }
