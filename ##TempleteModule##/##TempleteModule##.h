@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char __TempleteModule__VersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <__TempleteModule__/PublicHeader.h>
 
-
+#import <--TempleteModule--/--TempleteModule--Delegate.h>
+#import <--TempleteModule--/--TempleteModule--Bundle.h>
