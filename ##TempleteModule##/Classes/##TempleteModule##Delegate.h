@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import <DTRipper/DTRipper.h>
+#import <DTRipper/DTModuleProtocol.h>
 
 @interface __TempleteModule__Delegate : NSObject<DTModuleProtocol>
 
