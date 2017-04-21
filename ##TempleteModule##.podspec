@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.framework    = "UIKit"
   s.source_files = '##TempleteModule##/**/*.{h,m}'
+  s.public_header_files = '##TempleteModule##/**/*.h'
   s.resource = '##TempleteModule##/Resources/##TempleteModule##.bundle'
   s.dependency 'DTRipper'
 end
